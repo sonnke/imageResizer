@@ -99,7 +99,7 @@ const MainScreen: React.FunctionComponent<OwnProps> = ({
             width: "100%"
           }}
           thumbStyle={{
-            backgroundColor: toggleSlider ? "#808080" : "red"
+            backgroundColor: toggleSlider ? "green" : "red"
           }}
         />
         <Text>{message}</Text>
